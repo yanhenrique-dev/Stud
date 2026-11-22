@@ -16,7 +16,7 @@ option(STUD_BUILD_ROSEMARY "Build Rosemary from github.com/CatPieLeaf/rosemary-s
 # Upstream (microlift/rosemary) with Stud's changes, rebased onto its newest.
 set(STUD_ROSEMARY_REPOSITORY "https://github.com/CatPieLeaf/rosemary-stud.git" CACHE STRING
     "Git repository Rosemary is built from")
-set(STUD_ROSEMARY_BRANCH "stud" CACHE STRING "Branch of STUD_ROSEMARY_REPOSITORY to build")
+set(STUD_ROSEMARY_BRANCH "issue-39-one-present-queue" CACHE STRING "Branch of STUD_ROSEMARY_REPOSITORY to build")
 option(STUD_SANITIZE "Build with -fsanitize=address,undefined" OFF)
 # Hardening: PIE and full RELRO, which distro build flags normally supply but
 # prebuilt releases don't get (Arch's analyser flags their absence).
